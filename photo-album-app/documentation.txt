@@ -1,0 +1,21 @@
+GET /                 homepage
+
+GET /users            list of all users
+
+GET /users/{id}       user with given id
+
+GET /registration     registration page
+
+GET /login            login page   
+
+POST /users/create    creation of new user
+
+POST /login           post request when logging in
+
+GET  /upload          page for uploading photos
+
+GET  /photos          all photos of signed user
+
+POST /upload          new photo upload
+
+GET  /users/{id}/photos  all photos of user with given id

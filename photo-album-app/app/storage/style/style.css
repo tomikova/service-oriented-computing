@@ -1,0 +1,47 @@
+body,td,th,a{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+html { 
+  background: url('http://localhost/PhotoAlbum/app/storage/style/background.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a{
+	text-shadow: 1px 1px 1px #888888;
+}
+
+a:link {
+	color: #03C;
+	text-decoration:none;
+}
+a:visited {
+	color: #03C;
+}
+a:hover {
+	color: #000;
+}
+a:active {
+	color: #03C;
+}
+#Header{
+	border:#999 1px solid;
+	border-bottom:none;
+	background-color:#DAE6F8;
+	width:900px;
+}
+#Content{
+	border:#999 1px solid;
+	border-bottom:none;
+	background-color:#F4F4F4;
+	width:900px;
+	box-shadow: 20px 20px 40px #888888 inset;
+}
+#Footer{
+	border:#999 1px solid;
+	background-color:#DAE6F8;
+	width:900px;
+}

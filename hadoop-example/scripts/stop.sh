@@ -1,0 +1,1 @@
+$HOME/../hadoop-0.19.1/bin/stop-all.sh
